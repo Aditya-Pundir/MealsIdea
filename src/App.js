@@ -88,7 +88,7 @@ function App() {
               <h3 className="heading">Ingredients:</h3>
               <ol>
                 {ingredients.map((ing, i) => (
-                  <li className="ingredient" className="ingredients" key={i}>
+                  <li className="ingredients" key={i}>
                     {ing ? (
                       <>
                         {ing}: {ingredientMeasures[i]}
