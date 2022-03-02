@@ -51,7 +51,7 @@ function App() {
       setIngredientMeasures(ingredientMeasures);
     }
     fetchData();
-  }, [category, click]);
+  }, [click]);
 
   // console.log(title);
   // console.log(recipe);
