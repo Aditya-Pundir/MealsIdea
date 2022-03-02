@@ -3,7 +3,6 @@ import "./style.css";
 
 function App() {
   const [click, setClick] = useState(false);
-  const [category, setCategory] = useState("meal");
   const [title, setTitle] = useState("");
   const [YT, setYT] = useState("");
   const [image, setImage] = useState("");
